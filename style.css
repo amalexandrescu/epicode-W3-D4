@@ -9,11 +9,11 @@ body {
 }
 
 #container {
-  width: 70%;
-  aspect-ratio: 1/0.5;
-  background-color: #804596;
+  width: 50%;
+  /* aspect-ratio: 1/0.5; */
+  /* background-color: #804596; */
   margin-inline: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 2rem;
   border-radius: 4px;
 }
@@ -21,33 +21,31 @@ body {
 #bingo-board {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 0.3rem;
 }
 
 h1 {
-  background-color: #391b5b;
-  color: rgb(235 225 237);
+  /* background-color: #391b5b; */
+  /* color: rgb(235 225 237); */
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 4rem;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 .cell {
-  width: 8.95rem;
+  width: 5rem;
   aspect-ratio: 1/1;
-  background-color: #804596;
-  /* margin-left: 1px;
-  margin-right: 1px;
-  margin-top: 1px;
-  margin-bottom: 1px; */
-  border: 1px solid transparent;
-  /* border-radius: 4px; */
-
+  /* background-color: #804596; */
+  border: 1px solid black;
+  border-radius: 4px;
   display: flex;
-  flex-direction: column;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
   justify-content: center;
   align-items: center;
 }
@@ -57,7 +55,8 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-button {
+
+#drawButton {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -75,4 +74,74 @@ button {
   background-color: #fcc00d;
   border: 1px solid #db952f;
   border-radius: 4px;
+}
+
+#otherBoardsContainer {
+  background-color: pink;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#userBoards {
+  background-color: pink;
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+  font-size: 2rem;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#input-and-button-container {
+  background-color: pink;
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.board {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background-color: red; */
+  width: 50%;
+  margin-inline: auto;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.customClass {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 50%;
+
+  /* background-color: #804596; */
+  margin-inline: auto;
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+  border-radius: 4px;
+  justify-content: center;
+  padding-bottom: 0.3rem;
+}
+
+#inputContainer {
+  margin-bottom: 2rem;
 }
